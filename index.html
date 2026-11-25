@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    const lang = navigator.language || navigator.userLanguage;
+    if (lang.startsWith('fr')) {
+      window.location.replace('/fr/');
+    } else {
+      window.location.replace('/en/');
+    }
+  </script>
+</head>
+<body></body>
+</html>
